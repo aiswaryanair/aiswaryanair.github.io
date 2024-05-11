@@ -10,8 +10,15 @@ Dataset contains information about flight booking options from the website Easem
 - XGBRegressor
 - CatBoostRegressor
 ### Required Libraries
-`import seaborn`
-****plots****
+```
+import seaborn
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.linear_model import LinearRegression
+from xgboost import XGBRegressor
+from catboost import CatBoostRegressor
+from sklearn.metrics import mean_absolute_error, r2_score
+```
+### Plots
 - barplot
 - violinplot
 - regplot
@@ -43,12 +50,20 @@ from keras.preprocessing.image import ImageDataGenerator
 ### Objective
 The objective is to estimate the price elasticity of each item in a cafe and find the optimal price for maximum profit.
 ### Tasks
-Exploratory data analysis
-Data visualization
-Demand forecasting
-Price optimization
+- Exploratory data analysis
+- Data visualization
+- Demand forecasting
+- Price optimization
 ### Algorithm
 Ordinary Least Square Regression
+### Required Libraries
+```
+import statsmodels.api as sm
+from statsmodels.formula.api import ols
+import matplotlib.pyplot as plt
+import seaborn as sns; sns.set(style="ticks", color_codes=True)
+```
+
 
 ### [4 - Decision Tree Classifier for Drug Classification](https://github.com/aiswaryanair/Decision-Tree---Drug-Classification)
 ### Required Libraries
