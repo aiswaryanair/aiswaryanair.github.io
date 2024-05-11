@@ -9,3 +9,23 @@ Dataset contains information about flight booking options from the website Easem
 - XGBRegressor
 - CatBoostRegressor
 
+## [Project2 - Deep Learning:Image Classification using pre-trained models in Keras](https://github.com/aiswaryanair/Image-Classifier---ResNet50-and-VGG16---Evaluation-and-Testing-Performance)
+### Objective
+The objective is to build Image Classifiers using Resnet50 and VGG16 pre-trained models and compare the performances
+### Dataset
+The dataset utilized for this project was sourced from Concrete Crack Images for Classification. It presumably contains images relevant to concrete crack classification.
+### Models
+ResNet50 - Residual Network (ResNet) is a deep learning model used for computer vision applications. It is a Convolutional Neural Network (CNN) architecture designed to support hundreds or thousands of convolutional layers.
+VGG16 - It is a convolution neural network (CNN) model supporting 16 layers.
+### Required Libraries
+```python
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.applications import ResNet50
+from keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.applications.vgg16 import VGG16
+from tensorflow.keras.applications.vgg16 import preprocess_input
+from keras.preprocessing.image import ImageDataGenerator
+
+
