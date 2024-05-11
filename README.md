@@ -18,14 +18,15 @@ The dataset utilized for this project was sourced from Concrete Crack Images for
 ResNet50 - Residual Network (ResNet) is a deep learning model used for computer vision applications. It is a Convolutional Neural Network (CNN) architecture designed to support hundreds or thousands of convolutional layers.
 VGG16 - It is a convolution neural network (CNN) model supporting 16 layers.
 ### Required Libraries
-`python'
-'import keras'
-'from keras.models import Sequential
+```
+import keras
+from keras.models import Sequential
 from keras.layers import Dense
 from keras.applications import ResNet50
 from keras.applications.resnet50 import preprocess_input
 from tensorflow.keras.applications.vgg16 import VGG16
 from tensorflow.keras.applications.vgg16 import preprocess_input
-from keras.preprocessing.image import ImageDataGenerator'
+from keras.preprocessing.image import ImageDataGenerator
+```
 
 
