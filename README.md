@@ -47,7 +47,7 @@ from tensorflow.keras.applications.vgg16 import VGG16
 from tensorflow.keras.applications.vgg16 import preprocess_input
 from keras.preprocessing.image import ImageDataGenerator
 ```
-### [3 - Retail Price Optimization](https://github.com/aiswaryanair/Retail-Price-Optimization)
+## [#3 - Retail Price Optimization](https://github.com/aiswaryanair/Retail-Price-Optimization)
 ### Objective
 The objective is to estimate the price elasticity of each item in a cafe and find the optimal price for maximum profit.
 ### Tasks
@@ -65,7 +65,7 @@ from statsmodels.formula.api import ols
 import matplotlib.pyplot as plt
 import seaborn as sns; sns.set(style="ticks", color_codes=True)
 ```
-### [4 - Decision Tree Classifier for Drug Classification](https://github.com/aiswaryanair/Decision-Tree---Drug-Classification)
+## [#4 - Decision Tree Classifier for Drug Classification](https://github.com/aiswaryanair/Decision-Tree---Drug-Classification)
 ### Objective
 Build a model to find out which drug might be appropriate for a future patient with the same illness. The features of this dataset are Age, Sex, Blood Pressure, and the Cholesterol of the patients, and the target is the drug that each patient responded to.
 ### Datasource 
