@@ -1,9 +1,9 @@
 ## Projects
 ## [#1 - Flight Price Prediction](https://github.com/aiswaryanair/Linear-Regression---Flight-Price-Prediction)
 ### Objective
-The objective of the project is to analyse the flight booking dataset obtained from “Ease My Trip” website and to conduct various statistical hypothesis tests in order to get meaningful information from it. 'Easemytrip' is an internet platform for booking flight tickets, and hence a platform that potential passengers use to buy tickets. 
+The objective of the project is to do exploratory data analysis of the flight booking dataset obtained from “Ease My Trip” website and to predict flight price using the best trained model.
 ### Dataset
-Dataset contains information about flight booking options from the website Easemytrip for flight travel between India's top 6 metro cities. There are 300261 datapoints and 11 features in the cleaned dataset.
+Dataset contains information about flight booking options from the website Easemytrip for flight travel between 6 cities. There are 300261 datapoints and 11 features in the cleaned dataset.
 ### Algorithms
 - KNeighborsRegressor
 - Linear Regression
