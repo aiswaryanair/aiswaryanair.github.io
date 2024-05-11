@@ -9,6 +9,7 @@ Dataset contains information about flight booking options from the website Easem
 - Linear Regression
 - XGBRegressor
 - CatBoostRegressor
+
 ### Required Libraries
 ```
 import seaborn
@@ -54,6 +55,7 @@ The objective is to estimate the price elasticity of each item in a cafe and fin
 - Data visualization
 - Demand forecasting
 - Price optimization
+  
 ### Algorithm
 Ordinary Least Square Regression
 ### Required Libraries
@@ -63,8 +65,6 @@ from statsmodels.formula.api import ols
 import matplotlib.pyplot as plt
 import seaborn as sns; sns.set(style="ticks", color_codes=True)
 ```
-
-
 ### [4 - Decision Tree Classifier for Drug Classification](https://github.com/aiswaryanair/Decision-Tree---Drug-Classification)
 ### Required Libraries
 ```
