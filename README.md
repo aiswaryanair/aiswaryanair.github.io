@@ -65,7 +65,17 @@ from statsmodels.formula.api import ols
 import matplotlib.pyplot as plt
 import seaborn as sns; sns.set(style="ticks", color_codes=True)
 ```
-## [#4 - Decision Tree Classifier for Drug Classification](https://github.com/aiswaryanair/Decision-Tree---Drug-Classification)
+## [#4 - Resume Parser Algorithm](https://github.com/aiswaryanair/Resume-Parser)
+### Objective
+An algorithm to parse resume using the python library, Spacy. The input file is a JSON file where the fields like Location, Designation, Name, Work Experience etc are tagged.Initially the JSON file is converted into a format understandable for Spacy.Then a model is built to train the file.
+### Required Libraries
+```
+import spacy
+import re
+import json
+from tika import parser
+```
+## [#5 - Decision Tree Classifier for Drug Classification](https://github.com/aiswaryanair/Decision-Tree---Drug-Classification)
 ### Objective
 Build a model to find out which drug might be appropriate for a future patient with the same illness. The features of this dataset are Age, Sex, Blood Pressure, and the Cholesterol of the patients, and the target is the drug that each patient responded to.
 ### Datasource 
